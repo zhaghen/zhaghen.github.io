@@ -8,17 +8,21 @@
 
 <title>
   
-    Archive: 2018
+    Hexo
   
 </title>
 
-<meta property="og:type" content="website">
+<meta name="description" content="抽象类实例：在面对对象抽象编程时，我们经常会用到抽象类，因为抽象类只关心操作，不关心具体的实现细节，可以让我们更关注一个类的标准行为。这样做不仅节省时间，而且有利于设计出易维护、易拓展的程序。 下面给出一个实例，来分析抽象类的实现。 12345678public abstract class phone &amp;#123;    int battery=100;    abstract void beg">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2018/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/10/18/抽象类实例/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="抽象类实例：在面对对象抽象编程时，我们经常会用到抽象类，因为抽象类只关心操作，不关心具体的实现细节，可以让我们更关注一个类的标准行为。这样做不仅节省时间，而且有利于设计出易维护、易拓展的程序。 下面给出一个实例，来分析抽象类的实现。 12345678public abstract class phone &amp;#123;    int battery=100;    abstract void beg">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-10-18T07:50:56.361Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="抽象类实例：在面对对象抽象编程时，我们经常会用到抽象类，因为抽象类只关心操作，不关心具体的实现细节，可以让我们更关注一个类的标准行为。这样做不仅节省时间，而且有利于设计出易维护、易拓展的程序。 下面给出一个实例，来分析抽象类的实现。 12345678public abstract class phone &amp;#123;    int battery=100;    abstract void beg">
 
 
   <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -146,43 +150,22 @@
       
         <div style="max-width: 1000px">
       
-          
-
+          <article id="post-抽象类实例" class="article article-type-post">
   
   
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <h1><a href="/archives/2018" class="archive-year">2018</a></h1>
-        </div>
-        <div class="post-list">
-    
-  
 
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/10/18/抽象类实例/" >
-  
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2018/10/18/抽象类实例/"><span class="article-date">
+  <div class="article-info">
+    <span class="article-date">
   2018-10-18
 </span>
-</a>
-        
 
-        
+    
 
-      </div>
-      <div class="article-entry">
-        
-          <h1 id="抽象类实例："><a href="#抽象类实例：" class="headerlink" title="抽象类实例："></a>抽象类实例：</h1><p>在面对对象抽象编程时，我们经常会用到抽象类，因为抽象类只关心操作，不关心具体的实现细节，可以让我们更关注一个类的标准行为。这样做不仅节省时间，而且有利于设计出易维护、易拓展的程序。</p>
+    
+
+  </div>
+  <div class="article-entry">
+    <h1 id="抽象类实例："><a href="#抽象类实例：" class="headerlink" title="抽象类实例："></a>抽象类实例：</h1><p>在面对对象抽象编程时，我们经常会用到抽象类，因为抽象类只关心操作，不关心具体的实现细节，可以让我们更关注一个类的标准行为。这样做不仅节省时间，而且有利于设计出易维护、易拓展的程序。</p>
 <p>下面给出一个实例，来分析抽象类的实现。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">phone</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> battery=<span class="number">100</span>;</span><br><span class="line">    <span class="function"><span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">begin</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">checkBattery</span><span class="params">()</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"手机剩余电量："</span>+battery);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">abstract</span>  <span class="keyword">void</span> <span class="title">finish</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span>  <span class="class"><span class="keyword">class</span> <span class="title">Huawei</span> <span class="keyword">extends</span> <span class="title">phone</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">begin</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"华为手机开始运行"</span>);</span><br><span class="line">        battery -= <span class="number">8</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">finish</span><span class="params">()</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"华为手机关机"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -197,53 +180,29 @@
 <p>他们在begin中加入了输出语句，输出手机开始运行，并让电池消耗相应电量。这样一来抽象类phone中的抽象方法begin就有了具体实现。</p>
 <h3 id="主类："><a href="#主类：" class="headerlink" title="主类："></a>主类：</h3><p>在主类中用抽象类声明了对象 phoneSoldOut，然后分别将其转化为其子类（Huawei类和iphone类）的上转型对象，调用子类重写的方法来分别具体实现不同的方法。这样就避免了定义多个子类对象，分配过多空间。</p>
 
-        
-      </div>
-    </div>
-
-  
-
-  
-  
+  </div>
+  <footer class="article-footer">
     
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/10/17/hello-world/" >
-  Hello World
-</a>
-
-      </h3>
+  <div class="cc">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" title="Attribution-ShareAlike">
+      <img src="/images/cc/cc.png">
       
-
-      <div class="article-info">
-        <a href="/2018/10/17/hello-world/"><span class="article-date">
-  2018-10-17
-</span>
-</a>
+          <img src="/images/cc/by.png">
         
+          <img src="/images/cc/sa.png">
+      
+      <span>
+        This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+      </span>
+    </a>
+  </div>
 
-        
 
-      </div>
-      <div class="article-entry">
-        
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    
 
-        
-      </div>
-    </div>
+  </footer>
+</article>
 
-  
 
 
 
